@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./tslint.core.json",
+    "./tslint.rxjs.json"
+  ]
+}
