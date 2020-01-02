@@ -97,6 +97,8 @@
       true,
       "rxjs",
       "@nestjs/common",
+      "uuid/v1",
+      "typeorm",
       "supertest",
       "@Modules",
       "@Utils"
