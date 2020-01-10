@@ -1,10 +1,11 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { typeormConfig } from './config/typeorm.config';
+
+import { AuthModule } from '@Auth/auth.module';
+import { typeormConfig } from '@Config/typeorm.config';
+import { TasksModule } from '@Tasks/tasks.module';
 
 import { AppController } from './app.controller';
-import { TasksModule } from './tasks/tasks.module';
-import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [

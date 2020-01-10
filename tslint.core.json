@@ -76,8 +76,10 @@
       true,
       "dev",
       [
-        "@Modules",
-        "@Utils"
+        "@Utils",
+        "@Config",
+        "@Tasks",
+        "@Auth"
       ]
     ],
     "no-inferred-empty-object-type": true,
@@ -218,7 +220,7 @@
         "groups": [
           {
             "name": "External resources",
-            "match": "^(@?(nestjs|rxjs|supertest))",
+            "match": "^(@?(nestjs|rxjs|supertest|typeorm|class-validator))",
             "order": 10
           },
           {

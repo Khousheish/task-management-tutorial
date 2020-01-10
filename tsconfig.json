@@ -9,7 +9,13 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@Auth/*": ["src/auth/*"],
+      "@Config/*": ["src/config/*"],
+      "@Tasks/*": ["src/tasks/*"],
+      "@Utils/*": ["src/utils/*"],
+    }
   },
   "exclude": ["node_modules", "dist"]
 }

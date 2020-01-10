@@ -30,16 +30,16 @@
       "disableDefaultOrderSort": true,
       "rules": [
         {
-          "regex": "^[@?(supertest)]",
-          "orderLevel": 10
+          "regex": "^\\.{1,2}\/",
+          "orderLevel": 30
         },
         {
-          "regex": "^[@](Modules|Utils)",
+          "regex": "^[@](Modules|Utils|Config|Tasks|Auth)",
           "orderLevel": 20
         },
         {
-          "regex": "^[.]{1, 2}",
-          "orderLevel": 30
+          "regex": "^(@?(nestjs|rxjs|supertest|typeorm))",
+          "orderLevel": 10
         }
       ]
     },
